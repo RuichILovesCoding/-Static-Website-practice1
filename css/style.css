@@ -15,6 +15,7 @@
 
 
 .item {
+    border: transparent;
     color: #fff;
     float: right;
     width: 100px;
@@ -22,6 +23,7 @@
     margin: 10px;
     font-size: 25px;
     text-align: center;
+    transition: 1s ease;
 }
 
 .clearfloat:after,
@@ -32,13 +34,13 @@
 }
 
 .item:hover {
-    color: black;
+    color: rgb(150, 144, 144);
     background-color: #fff;
     cursor: pointer;
 }
 
 .hero_section {
-    background: url('../assets/hero_image.jpg') no-repeat;
+    background: url('../assets/hero_image.jpg') no-repeat ;
     position: absolute;
     left: 0;
     top: 0;
@@ -56,12 +58,13 @@
 }
 
 .btnGroup {
-    position: relative;
-    top: 31%;
-    left: 48%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
     height: 100px;
     width: 400px;
-    transform: translate(-40%);
+    margin-top: 10px;
+    transform: translate(-50%,-50%);
 }
 
 .btnGroup .btn {
