@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topNav {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    float: left;
+    padding: 5px; 
+    font-size: 20px;
+    margin: 5px;
+}
+
+.item {
+    float: right;
+    width: 80px;
+    padding: 5px;  
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.clearfloat:after,
+.clearfloat:before {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.item:hover {
+    background-color: blueviolet;
+    color: #000;
+}
+
+.hero_section {
+    background: url('assets/hero_image.jpg') no-repeat;
+    position: relative;
+    background-size: cover;
+}
