@@ -1,0 +1,24 @@
+{
+  "name": "personal-profile-website",
+  "version": "1.0.0",
+  "description": "manage the packages for my profile website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuichILovesCoding/Personal-Profile-Website.git"
+  },
+  "author": "Ruichi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RuichILovesCoding/Personal-Profile-Website/issues"
+  },
+  "homepage": "https://github.com/RuichILovesCoding/Personal-Profile-Website#readme",
+  "devDependencies": {
+    "css-loader": "^3.4.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
