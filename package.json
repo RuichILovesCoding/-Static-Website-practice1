@@ -4,7 +4,7 @@
   "description": "manage the packages for my profile website",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack"
+    "dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,25 @@
   },
   "homepage": "https://github.com/RuichILovesCoding/Personal-Profile-Website#readme",
   "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "autoprefixer": "^9.7.5",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "css-loader": "^3.4.2",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-mixins": "^6.2.3",
+    "postcss-nested": "^4.2.1",
+    "postcss-simple-vars": "^5.0.2",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "postcss-nested-import": "^0.1.0",
+    "style-loader": "^1.1.3",
+    "webpack-dev-server": "^3.10.3"
   }
 }
