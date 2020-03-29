@@ -1,16 +1,5 @@
+@import "normalize.css";
+@import "base/_global.css";
 @import "base/_mixins.css";
-
-$mainColor: yellow;
-h1 {
-  color: $mainColor;
-}
-
-p {
-  color: orange;
-}
-
-@mixin atSmall {
-  p {
-    color: black;
-  }
-}
+@import "base/_variable.css";
+@import "base/_container.css";
