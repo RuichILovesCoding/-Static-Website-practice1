@@ -11,27 +11,11 @@ img {
   height: auto;
 }
 
-.big-screen__h1 {
-  display: none;
+a {
+  text-decoration: none;
   color: $carbon;
-  font-family: $standoutText;
-  font-weight: 700;
-  margin: 50px 0 50px 0;
-  padding: 0;
 }
 
-.big-screen__h1::after {
-  content: "";
-  width: 120px;
-  height: 3px;
-  display: block;
-  background-color: $watermelon;
-}
-
-.big-screen__p {
-  display: none;
-  color: $carbon;
-  font-family: $normalText;
-  font-size: 1.2rem;
-  margin: 0;
+a:hover {
+  color: black;
 }
