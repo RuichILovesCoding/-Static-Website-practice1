@@ -1,0 +1,89 @@
+.education {
+  position: relative;
+  img {
+    display: none;
+  }
+}
+
+.education__h1 {
+  margin: 20px 0 20px 0;
+  color: $carbon;
+  font-family: $standoutText;
+  font-weight: 700;
+}
+
+.education__h1::after {
+  content: "";
+  width: 155px;
+  height: 3px;
+  display: block;
+  background-color: $watermelon;
+}
+
+@media (min-width: 850px) {
+  img {
+    display: block;
+  }
+  .education__h1 {
+    margin: 50px 0 50px 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .education {
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+
+.education__container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.education__flex-container {
+  @media (min-width: 1000px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.education__element {
+  margin-bottom: 20px;
+  @media (min-width: 1000px) {
+    width: 30%;
+    margin-bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.3), 0 6px 7px 0 rgba(0, 0, 0, 0.1);
+  }
+}
+
+.education__description {
+  color: $carbon;
+  font-family: $normalText;
+  font-size: 1.2rem;
+  margin: 10px 0 0 0;
+
+  @media (min-width: 1000px) {
+    line-height: 2rem;
+    font-size: 1.2rem;
+  }
+}
+
+.education__uni {
+  color: $carbon;
+  font-family: $normalText;
+  font-size: 1.3rem;
+  font-weight: bold;
+
+  @media (min-width: 1000px) {
+    font-size: 1.5rem;
+  }
+}

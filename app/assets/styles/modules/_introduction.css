@@ -31,7 +31,7 @@
   margin: 0;
 }
 
-@media (min-width: 730px) {
+@media (min-width: 1000px) {
   .introduction__container {
     position: absolute;
     @media (min-width: 380px) {
@@ -43,29 +43,21 @@
     left: 0;
   }
 
-  .introduction__p {
-    font-size: 1.1rem;
-    line-height: 2rem;
-  }
-
-  .introduction-text {
-    padding: 20px 40px;
-    box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.3), 0 6px 7px 0 rgba(0, 0, 0, 0.1);
-  }
-}
-
-@media (min-width: 850px) {
   .introduction__h1 {
     margin: 50px 0 50px 0;
   }
+
   .introduction__p {
     font-size: 1.2rem;
+    line-height: 2rem;
   }
   .introduction-text p {
     line-height: 2rem;
   }
 
   .introduction-text {
+    background-color: rgba(255, 255, 255, 0.5);
+
     padding: 20px 40px;
     box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.3), 0 6px 7px 0 rgba(0, 0, 0, 0.1);
   }

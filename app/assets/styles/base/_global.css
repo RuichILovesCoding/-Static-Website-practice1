@@ -19,3 +19,9 @@ a {
 a:hover {
   color: black;
 }
+
+.img_smaller {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
