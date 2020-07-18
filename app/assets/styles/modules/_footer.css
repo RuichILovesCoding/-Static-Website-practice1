@@ -1,0 +1,8 @@
+footer {
+  padding: 10px 20px;
+  background-color: $watermelon;
+
+  @media (min-width: 800px) {
+    margin-top: 20px;
+  }
+}

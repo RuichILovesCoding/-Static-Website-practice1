@@ -2,11 +2,9 @@ header {
   position: fixed;
   width: 100%;
   background-color: white;
-  height: 3.5rem;
+  height: 7.5rem;
   z-index: 2;
-  .header__normal-text {
-    display: none;
-  }
+  padding-top: 1rem;
 
   .header__standout-text {
     color: $carbon;
@@ -17,34 +15,30 @@ header {
     font-weight: 700;
   }
 
-  @media (min-width: 380px) {
-    padding-top: 1rem;
-    height: 7.5rem;
+  .header__normal-text {
+    display: inline;
+    color: $carbon;
+    font-family: $normalText;
+  }
 
-    .header__normal-text {
-      display: inline;
-      color: $carbon;
-      font-family: $normalText;
-    }
+  .header__standout-text {
+    font-size: 1.6rem;
+    padding-top: 0;
+  }
 
-    .header__standout-text {
-      font-size: 1.6rem;
-      padding-top: 0;
-    }
+  .header__grid-container {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    justify-items: center;
+    grid-gap: 10px 5px;
 
-    .header__grid-container {
-      display: grid;
-      grid-template-columns: 33.3% 33.3% 33.3%;
-      justify-items: center;
-      grid-gap: 10px 5px;
-
-      .header__grid-big {
-        order: -1;
-        grid-column-start: 1;
-        grid-column-end: 4;
-      }
+    .header__grid-big {
+      order: -1;
+      grid-column-start: 1;
+      grid-column-end: 4;
     }
   }
+
   @media (min-width: 800px) {
     padding-top: 1.7rem;
     height: 5rem;

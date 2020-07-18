@@ -17,7 +17,8 @@ a {
 }
 
 a:hover {
-  color: black;
+  color: $watermelon;
+  font-weight: 500;
 }
 
 .img_smaller {

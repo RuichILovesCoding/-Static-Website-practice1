@@ -1,58 +1,58 @@
-.education {
+.experience {
   display: block;
   position: relative;
 }
 
-.education__h1 {
+.experience__h1 {
   margin: 20px 0 20px 0;
   color: $carbon;
   font-family: $standoutText;
   font-weight: 700;
 }
 
-.education__h1::after {
+.experience__h1::after {
   content: "";
-  width: 155px;
+  width: 185px;
   height: 7px;
   display: block;
   background-color: $watermelon;
 }
 
 @media (min-width: 850px) {
-  .education__h1 {
+  .experience__h1 {
     margin: 50px 0 50px 0;
   }
 }
 
-.education__container {
+.experience__container {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
 }
 
-.education__flex-container {
+.experience__flex-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   overflow: auto;
 }
 
-.education__element {
+.experience__element {
   margin-bottom: 20px;
 
   width: 100%;
-  background-color: rgba(255, 192, 203, 0.2);
+  background-color: rgba(230, 230, 250, 0.2);
   padding: 20px;
   border-radius: 4px;
   box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.3), 0 6px 7px 0 rgba(0, 0, 0, 0.1);
 }
 
-.education__element:hover {
+.experience__element:hover {
   box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.5), 0 6px 7px 0 rgba(0, 0, 0, 0.3);
 }
 
-.education__description {
+.experience__description {
   color: $carbon;
   font-family: $normalText;
   font-size: 1.2rem;
@@ -64,7 +64,7 @@
   }
 }
 
-.education__uni {
+.experience__name {
   color: $carbon;
   font-family: $normalText;
   font-size: 1.3rem;

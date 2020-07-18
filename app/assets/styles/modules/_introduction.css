@@ -1,8 +1,7 @@
 .introduction {
   position: relative;
-  @media (min-width: 380px) {
-    padding-top: 7.5rem;
-  }
+
+  padding-top: 7.5rem;
 
   @media (min-width: 800px) {
     padding-top: 5rem;
@@ -14,12 +13,16 @@
   color: $carbon;
   font-family: $standoutText;
   font-weight: 700;
+
+  @media (min-width: 800px) {
+    margin: 50px 0 50px 0;
+  }
 }
 
 .introduction__h1::after {
   content: "";
   width: 120px;
-  height: 3px;
+  height: 7px;
   display: block;
   background-color: $watermelon;
 }
@@ -29,36 +32,23 @@
   font-family: $normalText;
   font-size: 1.2rem;
   margin: 0;
+  @media (min-width: 800px) {
+    line-height: 2rem;
+  }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
   .introduction__container {
     position: absolute;
-    @media (min-width: 380px) {
-      top: 7.5rem;
-    }
-    @media (min-width: 800px) {
-      top: 5rem;
-    }
-    left: 0;
+    top: 5rem;
   }
+}
 
-  .introduction__h1 {
-    margin: 50px 0 50px 0;
-  }
-
-  .introduction__p {
-    font-size: 1.2rem;
-    line-height: 2rem;
-  }
-  .introduction-text p {
-    line-height: 2rem;
-  }
-
-  .introduction-text {
-    background-color: rgba(255, 255, 255, 0.5);
-
+.introduction-text {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px 20px;
+  @media (min-width: 800px) {
     padding: 20px 40px;
-    box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.3), 0 6px 7px 0 rgba(0, 0, 0, 0.1);
   }
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.3), 0 6px 7px 0 rgba(0, 0, 0, 0.1);
 }
