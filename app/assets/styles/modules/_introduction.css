@@ -21,7 +21,7 @@
 
 .introduction__h1::after {
   content: "";
-  width: 120px;
+  width: 100px;
   height: 7px;
   display: block;
   background-color: $watermelon;
@@ -47,6 +47,7 @@
 .introduction-text {
   background-color: rgba(255, 255, 255, 0.5);
   padding: 20px 20px;
+  word-break: break-word;
   @media (min-width: 800px) {
     padding: 20px 40px;
   }

@@ -13,7 +13,7 @@
   }
   &__h1::after {
     content: "";
-    width: 85px;
+    width: 130px;
     height: 7px;
     display: block;
     background-color: $watermelon;
@@ -41,16 +41,28 @@
     h1 {
       text-align: center;
       margin: 0;
-      font-size: 1.8rem;
+      font-size: 1.7rem;
+      font-family: $standoutText;
+      color: $carbon;
     }
     p {
       background-color: $sky;
-      height: 3rem;
+      height: auto;
       font-size: 1.2rem;
-      line-height: 3rem;
-      padding: 2px 5px;
+      font-family: $normalText;
+      line-height: 2rem;
+      @media (min-width: 800px) {
+        line-height: 3rem;
+        padding: 2px 5px;
+      }
+      padding: 6px 5px;
       text-align: center;
       font-weight: 500;
+      color: $carbon;
+    }
+    p:hover {
+      font-size: 1.25rem;
+      font-weight: bold;
     }
   }
 
@@ -59,5 +71,9 @@
     @media (min-width: 800px) {
       margin-bottom: 0px;
     }
+  }
+
+  &__block:hover {
+    background-color: rgba(211, 211, 211, 0.3);
   }
 }

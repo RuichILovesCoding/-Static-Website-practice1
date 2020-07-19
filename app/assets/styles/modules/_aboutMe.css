@@ -16,7 +16,7 @@
 
 .aboutMe__h1::after {
   content: "";
-  width: 150px;
+  width: 100px;
   height: 7px;
   display: block;
   background-color: $watermelon;
