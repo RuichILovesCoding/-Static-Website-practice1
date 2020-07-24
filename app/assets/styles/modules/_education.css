@@ -84,3 +84,15 @@
     font-size: 1.5rem;
   }
 }
+
+.education::before {
+  content: "";
+  display: block;
+  height: 7.5rem; /* fixed header height*/
+  margin: -7.5rem 0 0; /* negative fixed header height */
+
+  @media (min-width: 800px) {
+    height: 5rem; /* fixed header height*/
+    margin: -5rem 0 0; /* negative fixed header height */
+  }
+}

@@ -69,3 +69,15 @@
     box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.3), 0 6px 7px 0 rgba(0, 0, 0, 0.1);
   }
 }
+
+.project::before {
+  content: "";
+  display: block;
+  height: 7.5rem; /* fixed header height*/
+  margin: -7.5rem 0 0; /* negative fixed header height */
+
+  @media (min-width: 800px) {
+    height: 5rem; /* fixed header height*/
+    margin: -5rem 0 0; /* negative fixed header height */
+  }
+}

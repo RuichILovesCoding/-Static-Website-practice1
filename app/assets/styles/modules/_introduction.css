@@ -2,7 +2,6 @@
   position: relative;
 
   padding-top: 7.5rem;
-
   @media (min-width: 800px) {
     padding-top: 5rem;
   }
